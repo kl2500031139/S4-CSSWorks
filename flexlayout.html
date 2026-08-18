@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Flex Layout </title>
+        <style> 
+        .container{
+            display:flex ;
+            flex-direction: row;
+            background-color: white;
+            gap: 10px;
+            height: 100vh;
+            flex-wrap: wrap-reverse;
+            justify-content:space-evenly;
+            align-items:center;
+
+        }
+            .box1{
+                display: block;
+                width: 200px;
+                height: 250px;
+                background-color:red;
+            }
+            .box2{
+                display: block;
+                width: 200px;
+                height: 250px;
+                background-color: green;
+            }
+            .box3{
+                display: block;
+                width: 200px;
+                height: 250px;
+                background-color:blue;
+            }
+            .box{
+                display: block;
+                width: 200px;
+                height: 250px;
+                background-color: aqua;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Necessitatibus obcaecati perspiciatis possimus sapiente
+                    natus at molestiaedistinctio tempora voluptatum consectetur!
+                    </p>
+                
+            </div>
+            <div class="box1">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Necessitatibus obcaecati perspiciatis possimus sapiente
+                    natus at molestiae distinctio tempora voluptatum consectetur!
+                    </p>
+        </div>
+        <div class="box2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Necessitatibus obcaecati perspiciatis possimus sapiente
+                    natus at molestiae distinctio tempora voluptatum consectetur!
+                    </p>
+        </div>
+                    <div class="box3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Necessitatibus obcaecati perspiciatis possimus sapiente
+                    natus at molestiaedistinctio tempora voluptatum consectetur!
+                    </p>
+                    </div>
+    </body>
+</html>
